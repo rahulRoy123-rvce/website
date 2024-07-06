@@ -1,0 +1,29 @@
+/* tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-background-color {
+    @apply bg-white;
+  }
+  .text-text-color {
+    @apply text-gray-900;
+  }
+  .text-form-color {
+    @apply text-gray-600;
+  }
+  .text-footer-color {
+    @apply text-gray-400;
+  }
+
+  [data-theme='dark'] .bg-background-color {
+    @apply bg-gray-900;
+  }
+  [data-theme='dark'] .text-text-color {
+    @apply text-white;
+  }
+  [data-theme='dark'] .text-footer-color {
+    @apply text-gray-600;
+  }
+}
