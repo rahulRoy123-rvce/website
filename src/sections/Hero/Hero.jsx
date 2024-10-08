@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv_r.pdf';
+import CV from '../../assets/RahulRoy.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import leetcodedark from '../../assets/leetcode-light.svg';
 import leetcodelight from '../../assets/leetcode-black.svg';
